@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">xyzreader</string>
+
+    <string name="action_share">Share</string>
+    <string name="date_author">%1$s by %2$s</string>
+    <string name="no_article_found">Swipe download to refresh your reading list.</string>
+    <string name="no_network_connection">No internet connection detected</string>
+    <string name="article_image_content_desc">Image for article titled %1$s</string>
+</resources>
