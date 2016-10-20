@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -32,7 +33,7 @@ import io.realm.RealmResults;
 public class ArticleListActivity extends AppCompatActivity implements ArticleAdapter.OnArticleClickListener {
 
     @BindView(R.id.container)
-    RelativeLayout container;
+    CoordinatorLayout container;
     @BindView(R.id.toolbar)
     Toolbar toolbar;
     @BindView(R.id.swipe_refresh_layout)
